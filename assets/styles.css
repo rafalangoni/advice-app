@@ -1,0 +1,41 @@
+:root{
+    --azul-acinzentado: hsl(217, 19%, 38%);
+    --azul-acinzentado-escuro: hsl(217, 19%, 24%);
+    --azul-escuro: hsl(218, 23%, 16%);
+    --cyan: hsl(193, 38%, 86%);
+    --verde-neon: hsl(150, 100%, 66%);
+
+    --fonte-principal: 'Manrope', sans-serif;
+}
+
+body{
+    background-color: var(--azul-acinzentado-escuro);
+}
+
+.principal{
+    background-color: var(--azul-acinzentado);
+    border: none;
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+    padding: 1rem;
+    width: 90vw;
+}
+
+.principal__advice{
+    color: var(--verde-neon);
+    font-family: var(--fonte-principal);
+    font-size: 1.75rem;
+}
+
+.principal__paragrafo{
+    color: var(--cyan);
+    font-family: var(--fonte-principal);
+    text-align: center;
+}
+
+.imagem__divisao{
+    margin: 0 auto;
+}
