@@ -23,7 +23,7 @@ body{
     height: 40vh;
     margin: 0 auto;
     padding: 1rem;
-    width: 100vw;
+    width: 90vw;
 }
 
 .principal__advice{
@@ -38,10 +38,30 @@ body{
     text-align: center;
 }
 
+.principal__imagem{
+    cursor: pointer;
+    height: 2rem;
+    width: 2rem;
+}
+
+/* .principal__imagem:hover{
+    background-color: var(--verde-neon);
+    border: none;
+    color: var(--verde-neon);
+    transition: 0.3s;
+} */
+
 .imagem__divisao{
     margin: 0 auto;
 }
 
 .rodape{
+    color: var(--cyan);
     margin-top: 1rem;
+    text-decoration: none;
+}
+
+.rodape a {
+    color: currentColor;
+    text-decoration: none;
 }
