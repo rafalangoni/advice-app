@@ -10,15 +10,17 @@
 
 body{
     background-color: var(--azul-acinzentado-escuro);
+    width: 100vw;
 }
 
 .principal{
+    align-items: center;
     background-color: var(--azul-acinzentado);
     border: none;
     border-radius: 1rem;
     display: flex;
     flex-direction: column;
-    align-items: center;
+    height: 40vh;
     margin: 0 auto;
     padding: 1rem;
     width: 100vw;
@@ -38,4 +40,8 @@ body{
 
 .imagem__divisao{
     margin: 0 auto;
+}
+
+.rodape{
+    margin-top: 1rem;
 }
